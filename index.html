@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 2% 5%;
+            background-image: url(./bg.jpg);
+            background-position-x: center ;
+            background-size: 180vh;
+            font-family: 'Roboto', sans-serif;;
+        }
+        span {
+            color: red;
+        }
+        h2 {
+            color: #E8FFCE;
+            font-size: 48px;
+        }
+        .titlebar {
+            display: flex;
+            flex-direction: row;
+            gap:13%;
+            align-items: baseline;
+        }
+        div>div {
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+        }
+        .menu>p {
+            color: #E8FFCE;
+            font-size: x-large;
+        }
+        .sign {
+            color: #E8FFCE;
+            font-size: 25px;
+        }
+        .sign>p {
+            background-color: black;
+            padding: 5% 12%;
+            border-radius: 10%;
+        }
+        h1 {
+            color: #E8FFCE;
+            font-size: 60px;
+            padding: 0%;
+            margin: 0%;
+        }
+        .content p {
+            color: #E8FFCE;
+            font-size: larger;
+            margin: 0%;
+        }
+        .content {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: flex-start;
+            margin-top: 14%;
+        }
+        .content>div {
+            display: block;
+        }
+        button {
+            font-size: 24px;
+            background-color: #E8FFCE;
+            border-radius: 10%;
+            padding: 6px 15px;
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="titlebar">
+        <div class="portfolio">
+            <h2>Portfo<span>lio.</span></h2>
+        </div>
+        <div class="menu">
+            <p>Home</p>
+            <p>About</p>
+            <p>Services</p>
+            <p>Contact</p>
+        </div>
+        <div class="sign">
+            <p>Login</p>
+            <p>Register</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="hello">
+            <h1>Hello,</h1> 
+            <h1>It's Me CodeGuy</h1>
+        </div>
+        <div class="description">
+            <p>I'm A Web Developer And Designer. I Will Make Your Projects Handsome And Attractive,</p>
+            <p>You Can Fine Me On GitHub.</p>
+        </div>
+        <button>Hire Me</button>
+    </div>
+</body>
+</html>
